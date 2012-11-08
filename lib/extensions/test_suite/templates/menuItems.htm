@@ -1,0 +1,32 @@
+<div id="addToGlossaryDialog" title="Add new term to glossary...">				
+	<form action="/glossary" method="POST">
+		<ul>
+			<li>
+				<label for="newTermType">Type</label>
+				<select id="newTermType" name="newTermType">
+					<option>good</option>
+					<option>bad</option>
+				</select>
+			</li>
+			
+			<li>
+				<label for="newTermName">Name</label>
+				<input type="text" id="newTermName" name="newTermName"/>
+			</li>
+			
+			<li>
+				<label for="newTermDescription">Description</label>
+				<textarea type="text" id="newTermDescription" name="newTermDescription"></textarea>
+			</li>
+			
+			<li>
+				<input type="submit" value="Add"/>
+				<input type="button" id="closeAddToGlossaryDialog" value="Close"/>
+			</li>
+		</ul>
+	</form>
+</div>
+
+<a id="addToGlossary" href="#">Add to Glossary...</a>
+&nbsp;|&nbsp;
+<a href="#" id="runTests">Run All Tests</a>

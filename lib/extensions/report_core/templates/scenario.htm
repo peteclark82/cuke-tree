@@ -1,0 +1,26 @@
+<li data-type="scenario" id="{{hashCode name}}" class="{{#hasFailed result.status}}jstree-open{{else}}jstree-closed{{/hasFailed}} node-{{result.status}} scenario-{{result.status}}">
+	<a data-mingle-url="{{mingleUrl}}"><ins class="jstree-icon">&#160;</ins>
+		{{#if tags}}&lt;{{#tags}}{{name}}{{/tags}}&gt;{{/if}}
+		{{name}}
+	</a>
+	<ul>
+		{{#steps}}
+		<li data-type="step" {{#if result.error_message}}data-error="{{result.error_message}}"{{/if}} class="node-{{result.status}} step-{{result.status}}">
+			<a><ins class="jstree-icon step">&#160;</ins>
+				{{name}}
+			</a>
+			{{#if rows}}
+				<table>
+					{{#rows}}
+					<tr>
+						{{#cells}}
+							<td>{{this}}</td>
+						{{/cells}}
+					</tr>
+					{{/rows}}
+				</table>
+			{{/if}}
+		</li>
+		{{/steps}}
+	</ul>
+</li>

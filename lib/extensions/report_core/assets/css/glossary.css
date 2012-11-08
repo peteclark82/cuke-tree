@@ -1,0 +1,69 @@
+#glossary {
+	/*display:none;*/
+	padding:10px;
+}
+
+#glossary h3  {
+	font-size:14px;
+	color:#459E00;
+}
+
+#glossary dl {
+	font-size:12px
+}
+
+#glossary dt {
+	font-weight:bold;
+	margin:10px;
+}
+
+.glossary-term {
+	font-style:italic;
+	color:#459E00;
+	font-weight:bold;
+}
+
+.glossary-term.bad{
+	color:red !important;
+}
+
+li[data-type='group'] > a span.glossary-term {
+	color:black;
+}
+/*
+#addToGlossaryDialog {
+	display:none;
+	background-color:#EDEAD9;
+	border:1px solid #BBBBBB;
+	padding:5px;
+	margin:5px;
+	position:absolute;
+}
+
+#addToGlossaryDialog h4 {
+	margin:10px;
+}*/
+#addToGlossaryDialog {
+	display:none;
+}
+
+#addToGlossaryDialog form ul {
+	margin:0px;
+	padding:0px;
+}
+
+#addToGlossaryDialog form ul li {
+	vertical-align:top;
+	margin:5px;
+	padding:5px;
+	list-style-type:none;
+}
+
+#addToGlossaryDialog label {
+	display:block;
+}
+
+#addToGlossaryDialog textarea {
+	width:400px;
+	height:80px;
+}

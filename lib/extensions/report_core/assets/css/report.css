@@ -1,0 +1,125 @@
+#report {
+	padding:0px;
+}
+#report li {
+	cursor:default;
+}
+#report a {
+	cursor:default;
+}
+#reportTree, #storyTree, #scenarioTree {
+	background-color:white;
+	overflow:auto;
+}
+#report_options {
+	overflow:auto;
+}
+
+.report-tree > ul {
+	overflow:auto;
+	height:600px;
+}
+
+.report-tree table {
+	margin: 0 0 0 40px;
+	font-size:12px;
+}
+
+.report-tree table td{
+	background-color:#EEE;
+}
+
+.report-tree table tr:first-child td{
+	font-weight:bold;
+}
+
+
+/* Group */
+.group > a {
+	font-size:11px;
+	font-weight:bold;
+}
+.group-passed > a > ins {
+	background:url("../images/icons/folder_green.png") 0px 0px !important;
+}
+.group-failed > a > ins {
+	background:url("../images/icons/folder_red.png") 0px 0px !important;
+}
+.group-undefined > a > ins {
+	background:url("../images/icons/folder_blue.png") 0px 0px !important;
+}
+.group-stepless > a > ins {
+	background:url("../images/icons/folder_grey.png") 0px 0px !important;
+}
+.group-nofeatures > a > ins {
+	background:url("../images/icons/folder_purple.png") 0px 0px !important;
+}
+
+/* Features */
+.feature-passed, .feature-failed, .feature-undefined, .feature-stepless, .feature-manual {
+	margin:2px 2px 2px 18px !important;
+}
+.feature-passed > a,.feature-failed > a,.feature-undefined > a, .feature-stepless > a, .feature-manual > a {
+	padding: 3px !important;
+	border: 1px solid #BBBBBB !important;
+}
+
+.feature-passed > a {
+	background-color: #EEFFEE;
+}
+.feature-failed > a {
+	background-color: #FFEEEE;
+}
+.feature-undefined > a {
+	background-color: #EEEEFF;
+}
+.feature-stepless > a {
+	background-color: #EEEEEE;
+}
+.feature-manual > a {
+	background-color: #EEFFEE;
+}
+
+.feature-passed > a > ins {
+	background:url("../images/icons/cog_green.png") 0px 0px !important;
+}
+.feature-failed > a > ins {
+	background:url("../images/icons/cog_red.png") 0px 0px !important;
+}
+.feature-undefined > a > ins {
+	background:url("../images/icons/cog_blue.png") 0px 0px !important;
+}
+.feature-stepless > a > ins {
+	background:url("../images/icons/cog_grey.png") 0px 0px !important;
+}
+
+/* Scenario */
+.scenario-passed > a > ins {
+	background:url("../images/icons/list_green.png") 0px 0px !important;
+}
+.scenario-failed > a > ins {
+	background:url("../images/icons/list_red.png") 0px 0px !important;
+}
+.scenario-undefined > a > ins {
+	background:url("../images/icons/list_blue.png") 0px 0px !important;
+}
+.scenario-stepless > a > ins {
+	background:url("../images/icons/list_grey.png") 0px 0px !important;
+}
+.scenario-manual > a > ins {
+	background:url("../images/icons/doc_green.png") 0px 0px !important;
+}
+
+/* Step */
+.step-passed > a > ins {
+	background:url("../images/icons/tick_green.png") 0px 0px !important;
+}
+.step-failed > a > ins {
+	background:url("../images/icons/cross_red.png") 0px 0px !important;
+}
+.step-skipped > a > ins {
+	background:url("../images/icons/cross_red.png") 0px 0px !important;
+}
+.step-undefined > a > ins {
+	background:url("../images/icons/arrow_blue.png") 0px 0px !important;
+}

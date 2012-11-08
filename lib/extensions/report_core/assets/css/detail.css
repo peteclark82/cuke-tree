@@ -1,0 +1,91 @@
+#detailTools  {
+	margin:5px;
+}
+
+#detail {
+	float:right;
+	padding:10px;
+	width:600px;
+	font-size:12px;
+	background-color:white;
+	border-left:5px solid #CCC;
+	overflow:auto;
+	height:628px;
+}
+
+#detail label {
+	font-weight:bold;
+}
+
+#detail_steps div {
+	margin:10px;
+}
+
+#detail_steps div.error {
+	margin:10px;
+	padding:5px;
+	background-color:#EDEAD9;
+}
+
+#detail_steps div.error pre{
+	overflow:auto;
+}
+
+#detail_steps ul {
+	margin:10px;
+	padding:0px;
+}
+
+#detail_steps ul li {
+	margin:5px;
+	padding:5px;
+	list-style-type:none;
+}
+
+#detail_steps ul li a {
+	padding:5px;
+	line-height:23px;
+	list-style-type:none;
+}
+
+#detail_steps ul>li.node-passed > a {
+	background-color:lightgreen;
+}
+#detail_steps ul>li.node-failed > a {
+	background-color:pink;
+}
+#detail_steps ul>li.node-skipped > a {
+	background-color:burlywood;
+}
+#detail_steps ul>li.node-undefined > a {
+	background-color:lightblue;
+}
+#detail_steps ul>li.node-stepless > a {
+	background-color:#EEEEEE;
+}
+#detail_steps ul>li.node-manual > a {
+	background-color:bisque;
+}
+
+#detail_steps table {
+	margin: 10px 0 0 10px;
+	font-size:12px;
+}
+
+#detail_steps table td{
+	background-color:#EEE;
+}
+
+#detail_steps table tr:first-child td{
+	font-weight:bold;
+}
+
+#detail_error div {
+	margin:10px;
+	padding:5px;
+	background-color:#EDEAD9;
+}
+
+#detail_error div pre{
+	overflow:auto;
+}

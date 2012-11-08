@@ -1,0 +1,60 @@
+body {
+	font-family:verdana;
+	font-size:10px;
+	background-color:white;
+	margin:15px 20px 15px 20px;
+}
+
+.cuke-logo {
+	width:160px;
+	float:right;
+	margin:0px;
+}
+
+h1 {
+	font-size:24px;
+	font-weight:normal;
+	color:black;
+	margin:0px 10px 0px 20px;
+}
+
+h1.connected {
+	font-weight:bold;
+	color:#459E00;
+}
+
+
+
+/* Quick Nav */
+.quicknav {
+	padding:10px 15px 10px 15px;
+	font-size:12px;
+	border:1px solid #777;
+}
+.quicknav a{
+	color:#459E00;	
+	font-weight:bold;
+	text-decoration:none;
+}
+.quicknav a:hover{
+	color:black;
+}
+.quicknav a.disabled{
+	color:lightgray;
+}
+.quicknav h3 {
+	display:inline;
+	color:#9D9C8A;
+	margin-right:0px;
+	font-weight:bold;
+}
+
+
+/* CSS Fix */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}

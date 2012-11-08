@@ -1,0 +1,39 @@
+<h3>Moneysupermarket (MSM 2.0) Step Definitions</h3>
+
+<span class="step-count-label">Step Count : {{countStepsInFile stepFiles}}</span>
+
+<dl class="step-files clearfix">
+	{{#stepFiles}}
+		<dt>{{name}} <strong>({{length steps}} step definitions)</strong></dt>
+		<dd>
+			<a href="javascript:;" data-path="{{filename}}" class="open-stepdefs">Open Step Definitions</a>
+			<dl class="steps clearfix">
+				{{#steps}}
+					<dt>{{patternString}}</dt>
+					<dd>
+						<dl class="step-info clearfix">
+							{{#options}}
+								{{#if description}}<dt>Description</dt><dd>{{description}}</dd>{{/if}}
+							{{/options}}
+							<dt>Usage Count</dt><dd>{{#summary}}{{length called}}{{/summary}}</dd>
+							{{#if summary.called}}
+							<dt><a href="#">Usage Info</a></dt>
+							<dd style="display:none">
+								{{#summary.called}}
+									<dl class="usage-info clearfix">
+										<dt>Path : </dt><dd>{{featurePath}}</dd>
+										<dt>Scenario : </dt><dd>{{scenarioName}}</dd>
+										<dt>Step : </dt><dd>{{stepName}}</dd>
+									</dl>
+								{{/summary.called}}									
+							</dd>
+							{{/if}}
+						</dl>
+					</dd>
+				{{/steps}}
+			</dl>
+		</dd>
+	{{/stepFiles}}
+</dl>
+
+

@@ -1,0 +1,119 @@
+#steps {
+	/*display:none;*/
+	padding:10px;
+}
+
+.step-count-label { 
+	font-weight:bold;
+}
+
+/* step files */
+dl.step-files {
+	font-size:14px;
+}
+
+dl.step-files dl{
+	margin:0px;
+	padding:0px;
+}
+
+dl.step-files dt  {
+	margin:0px;
+	padding:0px;
+	clear:left;
+}
+
+dl.step-files > dt{
+	cursor:hand;
+}
+
+dl.step-files dd  {
+	margin:0px;
+	padding:0px;
+}
+
+dl.step-files > dd{
+	margin:10px;
+	display:none;
+}
+
+/* steps */
+
+dl.step-files dl.steps {
+	font-size:12px;
+}
+
+dl.steps > dt,dl.steps > dd{
+	margin:0px 10px 0px 10px;
+}
+
+dl.steps > dd{
+	margin:10px;
+}
+
+.open-stepdefs {
+	display:block;
+	font-weight:bold;
+	margin:0px 0px 10px 10px;
+}
+
+dl.steps > dt.step-highlighted {
+	background-color:yellow;
+}
+
+/* step info */
+
+dl.step-info {
+	margin:0px 10px 0px 10px;
+	border:1px solid black;
+	background-color:#EDEAD9;
+}
+
+dl.step-info > dt,dl.step-info > dd{
+	float:left;
+	padding:5px;
+}
+
+dl.step-info > dt {
+	clear:both;
+	width:90px;
+	background-color:#78B10C;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+/* usage info */
+
+dl.step-info dl.usage-info { 
+	margin:0px 10px 10px 10px;
+}
+
+dl.usage-info > dt,dl.usage-info > dd{
+	float:left;
+	margin:0px 10px 0px 10px;
+}
+
+dl.usage-info > dt {
+	clear:both;
+}
+
+/* Reg Ex */
+dl.steps > dt  {
+	color:green;
+	background-color:white;
+	padding:5px;
+}
+
+.steps > dt > span.regex-symbol {
+	color:purple;
+}
+
+.steps > dt > span.regex-range {
+	color:red;
+}
+
+.steps > dt > span.regex-quote {
+	color:blue;
+	font-weight:bold;
+}
+
