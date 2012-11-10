@@ -1,0 +1,14 @@
+#progressBar  {
+	width: 120px;
+	height: 14px;
+	display: inline-block;
+	position: relative;
+	top: -2px;
+	margin-left: 10px;
+}
+
+#progressBar .ui-widget-header {
+	background:#459E00 !important;
+	text-align:center;
+	font-size:10px;
+}
