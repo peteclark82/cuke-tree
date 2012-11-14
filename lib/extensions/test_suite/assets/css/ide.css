@@ -12,3 +12,7 @@
 	text-align:center;
 	font-size:10px;
 }
+
+#progressBar .failed {
+	background:red !important;
+}
