@@ -5,7 +5,9 @@
 	</a>
 	<ul>
 		{{#steps}}
-		<li data-type="step" {{#if result.error_message}}data-error="{{result.error_message}}"{{/if}} class="node-{{result.status}} step-{{result.status}}">
+		<li data-type="step"
+			{{> stepNodeAttributes}}
+			class="node-{{result.status}} step-{{result.status}}">
 			<a><ins class="jstree-icon step">&#160;</ins>
 				{{name}}
 			</a>
