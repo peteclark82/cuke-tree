@@ -123,3 +123,6 @@
 .step-undefined > a > ins {
 	background:url("../images/icons/arrow_blue.png") 0px 0px !important;
 }
+.step .keyword {
+	font-style:italic;
+}

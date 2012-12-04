@@ -13,7 +13,7 @@
     "optimist": "= 0.3.4",
     "express": "= 2.5.11",
     "ncp": "= 0.2.6",
-    "socket.io": "= 0.9.6",
+    "socket.io": "= 0.9.11",
     "ansi-color": "= 0.2.1",
     "cloneextend": "= 0.0.3",
     "string": "= 0.2.1",
