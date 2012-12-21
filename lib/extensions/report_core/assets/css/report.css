@@ -7,7 +7,7 @@
 #report a {
 	cursor:default;
 }
-#reportTree, #storyTree, #scenarioTree {
+#reportTree, #storyTree {
 	background-color:white;
 	overflow:auto;
 }

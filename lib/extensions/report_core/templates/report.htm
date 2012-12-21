@@ -1,9 +1,9 @@
-<li data-type="group" id="{{hashCode uri}}" class="{{#hasFailed result.status}}jstree-open{{else}}jstree-closed{{/hasFailed}} node-{{result.status}} group group-{{result.status}}">
+<li data-type="group" id="{{hashCode id}}" class="{{#hasFailed result.status}}jstree-open{{else}}jstree-closed{{/hasFailed}} node-{{result.status}} group group-{{result.status}}">
 	<a data-path="{{uri}}"><ins class="jstree-icon group">&#160;</ins>{{name}} ({{countScenariosInGroup this}} scenarios)</a>
 	<ul>
 		{{#if features}}
 			{{#features}}
-				<li data-type="feature" id="{{hashCode uri}}" class="{{#hasFailed result.status}}jstree-open{{else}}jstree-closed{{/hasFailed}} node-{{result.status}} feature-{{result.status}}">
+				<li data-type="feature" id="{{hashCode ../id}}.{{hashCode id}}" class="{{#hasFailed result.status}}jstree-open{{else}}jstree-closed{{/hasFailed}} node-{{result.status}} feature-{{result.status}}">
 					<a data-path="{{uri}}"><ins class="jstree-icon feature">&#160;</ins>{{name}} ({{length elements}} scenarios)</a>
 					<ul>
 						{{#elements}}

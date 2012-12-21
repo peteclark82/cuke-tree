@@ -1,16 +1,31 @@
 #detailTools  {
-	margin:5px;
+	margin:px;
+}
+
+#detailResize {
+	cursor:ew-resize;
+	width:5px;
+	height:100%; 
+	float:right;
+	background-color:#459E00;
+	height:600px;
+}
+
+.drag-ghost {
+	opacity:0.4;
 }
 
 #detail {
 	float:right;
-	padding:10px;
 	width:600px;
 	font-size:12px;
 	background-color:white;
-	border-left:5px solid #CCC;
 	overflow:auto;
-	height:580px;
+	height:600px;
+}
+
+#detailContent {
+	padding:10px;
 }
 
 #detail label {

@@ -9,11 +9,20 @@
 			<a href="javascript:;" data-path="{{filename}}" class="open-stepdefs">Open Step Definitions</a>
 			<dl class="steps clearfix">
 				{{#steps}}
-					<dt>{{patternString}}</dt>
+					<dt><b>{{keyword}}</b> {{patternString}}</dt>
 					<dd>
 						<dl class="step-info clearfix">
 							{{#options}}
 								{{#if description}}<dt>Description</dt><dd>{{description}}</dd>{{/if}}
+								{{#if arguments}}<dt>Arguments</dt>
+									<dd>
+										<ul>
+											{{#arguments}}
+												<li>{{name}} - {{description}}</li>
+											{{/arguments}}
+										</ul>
+									</dd>
+								{{/if}}
 							{{/options}}
 							<dt>Usage Count</dt><dd>{{#summary}}{{length called}}{{/summary}}</dd>
 							{{#if summary.called}}

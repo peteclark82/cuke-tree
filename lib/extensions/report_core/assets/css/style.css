@@ -6,24 +6,17 @@ body {
 }
 
 .cuke-logo {
-	width:160px;
+	width:120px;
 	float:right;
 	margin:0px;
 }
 
-h1 {
-	font-size:24px;
-	font-weight:normal;
+.cuke-tree-title {
+	line-height:26px;
+	display:inline;
 	color:black;
-	margin:0px 10px 0px 20px;
+	padding-right:20px;
 }
-
-h1.connected {
-	font-weight:bold;
-	color:#459E00;
-}
-
-
 
 /* Quick Nav */
 .quicknav {
@@ -41,12 +34,6 @@ h1.connected {
 }
 .quicknav a.disabled{
 	color:lightgray;
-}
-.quicknav h3 {
-	display:inline;
-	color:#9D9C8A;
-	margin-right:0px;
-	font-weight:bold;
 }
 
 /* Icons */

@@ -16,3 +16,13 @@
 #progressBar .failed {
 	background:red !important;
 }
+
+.connected {
+	font-weight:bold;
+	color:#459E00;
+}
+
+#statusBar.error {
+	color:red;
+	font-weight:bold;
+}
