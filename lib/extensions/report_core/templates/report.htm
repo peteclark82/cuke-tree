@@ -4,7 +4,7 @@
 		{{#if features}}
 			{{#features}}
 				<li data-type="feature" id="{{hashCode ../id}}.{{hashCode id}}" class="{{#hasFailed result.status}}jstree-open{{else}}jstree-closed{{/hasFailed}} node-{{result.status}} feature-{{result.status}}">
-					<a data-path="{{uri}}"><ins class="jstree-icon feature">&#160;</ins>{{name}} ({{length elements}} scenarios)</a>
+					<a data-path="{{uri}}"><ins class="jstree-icon feature">&#160;</ins>{{name}} {{#if profile}}<strong>{{profile}}</strong>{{/if}} ({{length elements}} scenarios)</a>
 					<ul>
 						{{#elements}}
 							{{> scenario }}
