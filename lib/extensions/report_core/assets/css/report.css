@@ -126,3 +126,11 @@
 .step .keyword {
 	font-style:italic;
 }
+
+#reportTree .embeddings {
+  display:none;
+}
+
+#reportTree .error {
+  display:none;
+}

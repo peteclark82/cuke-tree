@@ -95,12 +95,11 @@
 	font-weight:bold;
 }
 
-#detail_error div {
-	margin:10px;
-	padding:5px;
-	background-color:#EDEAD9;
+#detail_steps div.embeddings a {
+  cursor:hand;
 }
 
-#detail_error div pre{
-	overflow:auto;
+#detail_steps div.embeddings img {
+  max-height:50%;
+  width:auto;
 }
