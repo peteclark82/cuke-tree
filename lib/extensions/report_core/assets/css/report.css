@@ -121,7 +121,7 @@
 	background:url("../images/icons/cross_red.png") 0px 0px !important;
 }
 .step-skipped > a > ins {
-	background:url("../images/icons/cross_red.png") 0px 0px !important;
+	background:url("../images/icons/question_mark.png") 0px 0px !important;
 }
 .step-undefined > a > ins {
 	background:url("../images/icons/arrow_blue.png") 0px 0px !important;
@@ -136,4 +136,14 @@
 
 #reportTree .error {
   display:none;
+}
+
+#reportTree .profile {
+  font-weight:bold;
+  color:blue;
+}
+
+#reportTree .scenario-tag {
+  font-style:italic;
+  color:green;
 }
