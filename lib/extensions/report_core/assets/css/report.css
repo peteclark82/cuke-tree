@@ -33,6 +33,9 @@
 	font-weight:bold;
 }
 
+.group a,.feature a,.scenario a,.step a {
+  text-decoration:none 
+}
 
 /* Group */
 .group > a {
