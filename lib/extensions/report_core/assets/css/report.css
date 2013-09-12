@@ -120,6 +120,9 @@
 .step-failed > a > ins {
 	background:url("../images/icons/cross_red.png") 0px 0px !important;
 }
+.report-tree .step-skipped > a  {
+	color:#999;
+}
 .step-skipped > a > ins {
 	background:url("../images/icons/question_mark.png") 0px 0px !important;
 }
