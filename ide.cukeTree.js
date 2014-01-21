@@ -1,4 +1,4 @@
-var CukeTree = require("./lib/cuketree.js");
+var CukeTree = require("./lib/cukeTree.js");
 
 module.exports = {
   "command": "ide",
