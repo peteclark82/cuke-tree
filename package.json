@@ -1,6 +1,6 @@
 {
   "name": "cuke-tree",
-  "version": "0.2.25",
+  "version": "0.2.26",
   "description": "A hierarchical Cucumber test report generator and IDE.",
   "author": {
     "name": "Pete Clark",
