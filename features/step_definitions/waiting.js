@@ -1,5 +1,7 @@
 module.exports = function() {
   this.Given(/^I note down the time$/, function(callback) {
+    if (this.isDryRun()) { return callback(); }
+
     var self = this;
 
     self.time = new Date();
@@ -7,29 +9,19 @@ module.exports = function() {
   });
 
   this.When(/^I wait '(.*)' seconds$/, function(interval, callback) {
-		console.error("CALLED : "+ interval);
-    var self = this;
+    if (this.isDryRun()) { return callback(); }
 
-    if (process.env.WAIT === "busy") {
-      while ((new Date() - self.time) < (interval * 1000)) {
-        // noop
-      }
-      callback();
-    }
-    else if (process.env.WAIT === "sleep") {
-      setTimeout(
-        function() {
-          callback();
-        },
-        interval * 1000
-      );
-    }
-    else {
-      callback("ERROR: WAIT environment variable has not been set");
-    }
+    setTimeout(
+      function() {
+        callback();
+      },
+      interval * 1000
+    );
   });
 
   this.Then(/^'(.*)' to '(.*)' seconds should have elapsed$/, function(minInterval, maxInterval, callback) {
+    if (this.isDryRun()) { return callback(); }
+
     var self = this;
 
     var actualInterval = new Date() - self.time;

@@ -5,7 +5,8 @@ module.exports = {
   "input": "./tmp/report.js",
   "output": "./tmp/report/",
   "features": "./features/",
-  "bin": "node ./monkey_patches/cucumber/bin/cucumber.js",
+  "variant": "parallel-cucumber-js",
+  "bin": "node ./node_modules/parallel-cucumber/bin/parallel-cucumber-js -f progress",
   "launch": true,
   "ext": [
     CukeTree.extensions.test_suite

@@ -1,11 +1,10 @@
-var CukeTree = require("./lib/cukeTree.js");
-
 module.exports = {
   "command": "run",
   "input": "./tmp/report.js",
   "output": "./tmp/report/",
   "features": "./features/",
-  "bin": "node ./node_modules/myriad-cucumber/bin/myriad-cucumber -w 2",
+  "variant": "parallel-cucumber-js",
+  "bin": "node ./node_modules/parallel-cucumber/bin/parallel-cucumber-js -f progress",
   "run": "./features/",
   "ext": []
 };
