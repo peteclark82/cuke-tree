@@ -44,9 +44,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-shell');
   grunt.loadNpmTasks('grunt-mkdir');
 
-  grunt.registerTask('features', ['shell:features']);
+  grunt.registerTask('features', [/*'jshint',*/ 'mkdir:tmp', 'shell:features']);
+  grunt.registerTask('ide', [/*'jshint',*/ 'mkdir:tmp', 'shell:ide']);
 
-  grunt.registerTask('test', [/*'jshint',*/ 'mkdir:tmp', 'features']);
+  grunt.registerTask('test', ['features']);
   grunt.registerTask('default', ['test']);
 
 };

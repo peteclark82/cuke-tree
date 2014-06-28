@@ -53,7 +53,7 @@
     "cuketree": "./lib/cli/cli.js"
   },
   "scripts": {
-    "start": "node lib/cli/cli.js -c ide",
+    "start": "grunt ide",
     "test": "grunt test"
   },
   "repository": {
