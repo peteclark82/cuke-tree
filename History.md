@@ -2,7 +2,9 @@
 
 ## [v0.2.x](https://github.com/peteclark82/cuke-tree/compare/v0.2.26...master)
 
-### [master (unreleased)](https://github.com/peteclark82/cuke-tree/compare/v0.2.26...master)
+### [master (unreleased)](https://github.com/peteclark82/cuke-tree/compare/v0.2.27...master)
+
+### [v0.2.27](https://github.com/peteclark82/cuke-tree/compare/v0.2.26...v0.2.27)
 
 #### New features
 * Reduced the size of the npm package
