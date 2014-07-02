@@ -4,6 +4,8 @@
 
 ### [master (unreleased)](https://github.com/peteclark82/cuke-tree/compare/v0.2.27...master)
 
+### [v0.2.28](https://github.com/peteclark82/cuke-tree/compare/v0.2.27...v0.2.28)
+
 #### New features
 * Suppress Cucumber stdout when counting number of scenarios in a test run (closes #16)
 
