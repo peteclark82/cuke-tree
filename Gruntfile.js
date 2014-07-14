@@ -30,10 +30,20 @@ module.exports = function(grunt) {
 
     shell: {
       features: {
-        command: 'node lib/cli/cli.js -c default'
+        command: 'node ../lib/cli/cli.js -c default',
+        options: {
+          execOptions: {
+            cwd: 'test_assets/'
+          }
+        }
       },
       ide: {
-        command: 'node lib/cli/cli.js -c ide'
+        command: 'node ../lib/cli/cli.js -c ide',
+        options: {
+          execOptions: {
+            cwd: 'test_assets/'
+          }
+        }
       }
     }
 
