@@ -7,6 +7,9 @@
 #### New features
 * Restructured the tests
 
+#### Fixes
+* Ensure nodes in the tree are uniquely identified (closes #17)
+
 ### [v0.2.28](https://github.com/peteclark82/cuke-tree/compare/v0.2.27...v0.2.28)
 
 #### New features
