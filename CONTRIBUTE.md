@@ -2,7 +2,6 @@
 
 Here are the steps to follow when making a release.
 
-* Update development status in `README.md`, if relevant
 * Update `History.md`
 * Bump version in `package.json`
 * Add new contributors to `package.json`, if any
@@ -11,5 +10,7 @@ Here are the steps to follow when making a release.
 * Tag commit as "v0.1.2" with short description of main changes
   * `$ git tag -a "v0.1.2" -m "Description of changes"`
 * Push to main repo on GitHub
+  * `$ git push origin master`
+  * `$ git push origin v0.1.2`
 * Wait for build to go green
 * Publish to NPM

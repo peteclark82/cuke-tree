@@ -4,6 +4,8 @@
 
 ### [master (unreleased)](https://github.com/peteclark82/cuke-tree/compare/v0.2.28...master)
 
+### [v0.2.29](https://github.com/peteclark82/cuke-tree/compare/v0.2.28...v0.2.29)
+
 #### New features
 * Restructured the tests
 
