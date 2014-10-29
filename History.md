@@ -2,7 +2,12 @@
 
 ## [v0.2.x](https://github.com/peteclark82/cuke-tree/compare/v0.2.26...master)
 
-### [master (unreleased)](https://github.com/peteclark82/cuke-tree/compare/v0.2.28...master)
+### [master (unreleased)](https://github.com/peteclark82/cuke-tree/compare/v0.2.30...master)
+
+### [v0.2.30](https://github.com/peteclark82/cuke-tree/compare/v0.2.29...v0.2.30)
+
+#### Fixes
+* Fix issue with Cucumber hooks and versions of cucumber-js v0.4.2 and later
 
 ### [v0.2.29](https://github.com/peteclark82/cuke-tree/compare/v0.2.28...v0.2.29)
 
