@@ -1,4 +1,8 @@
 module.exports = function() {
+  this.Before(function(callback) {
+    callback();
+  });
+
   this.World = function(callback) {
     var world = {};
 

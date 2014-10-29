@@ -35,7 +35,7 @@
     "grunt-contrib-clean": "~0.4.1",
     "grunt-shell": "~0.7.0",
     "grunt-mkdir": "~0.1.1",
-    "cucumber": ">=0.4.0",
+    "cucumber": ">=0.4.4",
     "parallel-cucumber": ">=0.1.3"
   },
   "main": "./lib/cukeTree.js",
